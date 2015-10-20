@@ -1,4 +1,4 @@
-# Basic_Thread_Programming
+# Basic_MultiThreading_Program
 A small program that uses the pthread lib.
 
 This small program is a test program for using the pthreadlib. Indeed, it uses several functions from the lib to make some 
