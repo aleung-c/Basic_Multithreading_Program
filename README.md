@@ -13,4 +13,4 @@ Removing the mutex in this code give more meaning to the program, as all the cal
 However, the order of the threads then become uncontrolled, and the program makes the so called "data race", 
 which can lead to elusive errors and behavior.
 
-Then again, this program was a way for me to work with and understand threaded programming.
+Then again, this program was a way for me to work with and understand multithreaded programming.
