@@ -66,6 +66,7 @@ int main(void)
 	else
 		printf("Thread created successfully\n");
 	pthread_join(th_test_struct.tid[0], NULL); // block the main: init before all.
+	// Creating and using 4 threads to do some work. Controlling the order with the mutex.
     i = 0;
 	while (i < 4)
 	{
